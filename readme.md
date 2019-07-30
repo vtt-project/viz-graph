@@ -25,6 +25,9 @@ Install the dependencies and kivy
 `python -m pip install docutils pygments pypiwin32 kivy.deps.sdl2 kivy.deps.glew`
 
 
+![visualization of video](https://user-images.githubusercontent.com/14289457/62134415-674b7c80-b31b-11e9-8312-cdc7a6d7c507.PNG)
+
+
 ### Input format
 
 Input data must be JSONLines that contains multiple JSON objects in one of the
@@ -80,3 +83,8 @@ video-knowledge-builder $ python main.py < test_input.jsonlines > output.jsonlin
 
 The shell command above will provide the contents of `test_input.jsonlines` as
 input for the application and save the result in a file `output.jsonlines`.
+
+
+#### Acknowledgements
+
+This work was supported by Institute for Information & communications Technology Promotion(IITP) grant funded by the Korea government(MSIT) (2017-0-01780, The technology development for event recognition/relational reasoning and learning knowledge based system for video understanding)
